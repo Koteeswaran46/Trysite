@@ -1,0 +1,44 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ </head>
+<body>
+<div class="super-main">
+<div class="w3-sidebar w3-animate-left side-bar" style="display:none" id="mySidebar">
+ <div class="w3-container">
+  <button class="w3-bar-item w3-button close-btn" (click)="w3_close()">&times;</button>
+  <h4>COMMENT SECTION</h4>
+ </div>
+ <div class="input-area">
+  <input type="text" size="35px" value="Write a comment or @mention someone">
+ </div>
+</div>
+ <div zclass="w3-main" class="main" id="main1">
+ <div>
+  <button class="btn-comments" (click)="w3_open()"><i class="fa fa-comments" aria-hidden="true"></i>&nbsp;&nbsp;No Comments</button>
+ </div>
+ <div id="header">
+ <ca-header></ca-header>
+ </div>
+ <button type="button" class="fixed"><img src="/app/marvel-icon.png">&nbsp;Create your own.</button>
+ <div class="position">
+  <ul class="mainmenu">
+   <a href="/" class="menu"><li>HOME</li></a><!--
+   --><a href="#" class="menu"><li>ABOUT US</li></a><!--
+   --><a href="#" class="menu"><li>COMMUNITY</li></a><!--
+   --><a href="#" class="menu"><li>COLLECTIVE ECONOMICS</li></a><!--
+   --><a href="#" class="menu"><li>CONTACT US</li></a>
+  </ul>
+ </div>
+ <div>
+  <img src="/app/network.png" alt="Sorry, can't display image...!"/>
+ </div>
+ <ca-bottom-table></ca-bottom-table>
+ <ca-footer></ca-footer>
+ <ca-buttons></ca-buttons>
+</div>
+</div>
+<ca-bottom-menu></ca-bottom-menu>
+</body>

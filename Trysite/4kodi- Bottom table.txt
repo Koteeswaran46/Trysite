@@ -1,0 +1,47 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="border" style="width:1185px; height:295px;">
+  <div class="tab1" style="width: 200px;">
+    <ul class="tab-pos" style="list-style: none;">
+      <li class="pad"><h5><b>FEATURES</b></h5></li>
+      <li><a href="">Micro Credit Pools</a></li>
+      <li><a href="">Fundraise</a></li>
+      <li><a href="">Cash Rewards</a></li>
+      <li class="pad-bottom"><a href="">Merchandise</a></li>
+    </ul>
+  </div>
+  <div class="tab2" style="width: 200px;">
+    <ul class="tab-pos" style="list-style: none;">
+      <li class="pad"><h5><b>COMPANY</b></h5></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Mission</a></li>
+      <li><a href="">Partners</a></li>
+      <li class="pad-bottom"><a href="">Press</a></li>
+    </ul>
+  </div>
+  <div class="tab3" style="width: 200px;">
+    <ul class="tab-pos" style="list-style: none;">
+      <li class="pad"><h5><b>LEARN MORE</b></h5></li>
+      <li><a href="">Support</a></li>
+      <li><a href="">Developers</a></li>
+      <li><a href="">Customer Service</a></li>
+      <li class="pad-bottom"><a href="">Get Started Guide</a></li>
+    </ul>
+  </div>
+  <div class="tab4" style="width: 385px;">
+    <ul class="tab-pos" style="list-style: none;">
+     <li class="pad"><h5><b>FOLLOW US</b></h5></li>
+     <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size: 20px"></i>&emsp;&emsp;&emsp;</a>
+     <a href="https://twitter.com/login" target="_blank"><i class="fa fa-twitter" style="font-size: 20px"></i>&emsp;&emsp;&emsp;</a>
+     <a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" style="font-size: 20px"></i>&emsp;&emsp;&emsp;</a>
+     <a href="https://in.pinterest.com/login/?referrer=home_page" target="_blank"><i class="fa fa-pinterest" style="font-size: 20px"></i></a>
+     <li class="small-caps"><a href="">SUBSCRIBE TO NEWSLETTER</a></li>
+     <li></li>
+     <li class="search-bar pad-bottom"><input type="text" class="inputfield" id="search-bar" name="email" value="&nbsp;&nbsp;E-mail" size="15px">&emsp;<button class="bttn"><i class="fa fa-envelope" style="color: white"></i></button></li>
+    </ul>
+  </div>
+</div>
